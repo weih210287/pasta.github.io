@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	height:100%;
+	}
+body {
+	font-family:微軟正黑體, "Microsoft JhengHei", 蘋果儷中黑, "Apple LiGothic Medium", Arial, sans-serif;
+	background:#fffad1;
+	padding:0;
+	margin:0;
+	height:100%;
+    font-size: 15px;
+	color: #ccc;
+	}
+
+/* 一般 */
+a:link,
+a:visited,
+a:active  {
+	color: red;
+	text-decoration:none;
+	-webkit-transition: all 1s ease; /* Safari */
+	transition: all 1s ease;
+}
+/* 滑過 */
+a:hover {
+	color: hotpink;
+}
+
+
+
+/* 主選單 */
+header {
+	background:#fff;
+	text-align:center;
+	position:fixed;
+	width:100px;
+	height: 100%;
+	}
+.logo {
+	float:left;
+	padding:5px 10px;
+	margin-left: -20px;
+	}
+
+.menu {
+    text-align: left;
+	margin-left: -8px;
+	}
+
+.menu a{
+	color:#444;
+	padding:30px 20px;
+	display:inline-block;
+	}
+
+.menu a:hover{
+    color:#000;
+	padding:30px 50px;
+	}
+.menu a.active {
+    color:#000;
+	background:#fff;
+	padding:30px 50px;
+	}
+
+h3{
+	color: #252424;
+	font-size: 30px;
+	line-height: 50px;
+	margin-top:-20px;
+	
+}
+
+h2{
+	color: #252424;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 10px;
+	margin-left: 50px;
+	
+}
+
+
+/* 區塊 1~4 */
+.bg1{
+	background: url(../images/黃薇-D0538208_02.jpg);
+	background-repeat: no-repeat;
+	/* background-attachment:fixed;*/
+	background-size:cover;
+	width:100%;
+	height:100%;
+	
+	
+}
+.bg2{
+	background: url(../images/黃薇-D085914538208_13.jpg);
+	background-repeat: no-repeat;
+	/* background-attachment:fixed;*/
+	background-size:cover;
+	width:100%;
+	height:70%;
+	
+}
+.bg3{
+	background: url(../images/黃薇-D0538208_011_16.jpg);
+	background-repeat: no-repeat;
+	/* background-attachment:fixed;*/
+	background-size:cover;
+	width:100%;
+	height:123%;	
+}
+.bg4{
+	background: url(../images/黃薇-D0538208_011_16.jpg);
+	background-repeat: no-repeat;
+	/* background-attachment:fixed;*/
+	background-size:cover;
+	width:100%;
+	height:200%;
+	
+}
+.bg5{
+	background: url(../images/黃薇-D0538208_011_16.jpg);
+	background-repeat: no-repeat;
+	/* background-attachment:fixed;*/
+	background-size:cover;
+	width:100%;
+	height:60%;
+	
+}
+
+/* 內容 */
+
+.width {
+	width: 1185px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 60%;
+	padding-top: 200px;
+	color: #333;
+}
+.content  img{
+	float:left;
+
+}
+.content h2 {
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+
+.content p {
+	line-height: 50px;
+}
+.content-bg2{
+	background-color: #fff;
+	float: right;
+	width: 500px;
+	height: 800px;
+	margin-top: 300px;
+	padding: 21px;
+	
+}
+.content-bg25{
+	background-color: #bc7047;
+	float: left;
+	width: 600px;
+	height: 318px;
+	margin-left: -22px;
+}
+
+.content-bg3{
+	background-color: #fff;
+	float: right;
+	width: 505px;
+	height: 570px;
+	margin-top: 456px;
+}
+.content-bg35{
+	background-color: #efeac5;
+	float: left;
+	width: 505px;
+	height: 500px;
+	margin-left: 176px;	
+}
+.content-bg4{
+	background-color: #fff;
+	float: left;
+	width: 505px;
+	height: 700px;
+	margin-top: 206px;
+	margin-left: 681px;
+}
+.content-bg45{
+	background-color: #bc7047;
+	float: left;
+	width: 605px;
+	height: 318px;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+.content-bg445{
+	background-color: #efeac5;
+	float: left;
+	width: 505px;
+	height: 302px;
+	margin-top: 3px;
+	margin-left: 100px;
+}
+.content-bg5{
+	background-color: #fff;
+	float: left;
+	width: 504px;
+	height: 350px;
+	margin-top: -200px;
+	margin-left: 176px;
+}
+.content-bg55{
+	background-color: #efeac5;
+	float: right;
+	width: 504px;
+	height: 350px;
+	margin-top: -200px;
+	margin-right: -427px;
+}
+
+
+div.a {
+  font-size: 15px;
+  color: #3F3F3F;
+}
+
+div.y {
+  font-size: 30px;
+  line-height: 60px;
+  color: #707070;
+ 
+}
+div.jj{
+  margin-left: 300px;	
+
+}
+p.y  {
+    white-space: pre;
+	font-size: 18px;
+	line-height: 48px;
+	color: #212121;
+	padding-left: 5px;
+}
+p.yp  {
+    white-space: pre;
+	font-size: 18px;
+	line-height: 48px;
+	color: #212121;
+	padding-left: 10px;
+	margin-top: -25px;
+}
+
+p.yy {
+	color: #BC7047;
+	white-space: pre;
+	letter-spacing: 2px;
+	font-weight:lighter;
+	font-size: 16px;
+	padding-bottom: 100px;
+	margin-top: -198px;
+	margin-left: 535px;
+}
+.content h4 {
+	color: #BC7047;
+	white-space: pre;
+	letter-spacing: 2px;
+	font-weight:lighter;
+	font-size: 60px;
+	padding-bottom: 100px;
+	margin-top: -535px;
+	margin-left: 505px;
+}
+p.r {
+	color: #FFFFFF;
+	float: right;
+	letter-spacing: 2px;
+	font-weight:lighter;
+	font-size: 70px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+	margin-right: 80px;
+}
+p.rr {
+	color: #FFFFFF;
+	float: right;
+	letter-spacing: 2px;
+	font-weight:lighter;
+	font-size: 24px;
+	padding-bottom: 100px;
+	margin-top: 182px;
+	margin-right: -260px;
+}
+p.f {
+	color: #FFFFFF;
+	float: left;
+	letter-spacing: 2px;
+	font-weight:lighter;
+	font-size: 70px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+	margin-left: 110px;
+}
+p.ff {
+	color: #FFFFFF;
+	float: left;
+	letter-spacing: 2px;
+	font-weight:lighter;
+	font-size: 24px;
+	padding-bottom: 100px;
+	margin-top: -110px;
+	margin-left: 113px;
+}
+p.yp  {
+    white-space: pre;
+	font-size: 18px;
+	line-height: 48px;
+	color: #212121;
+	padding-left: 10px;
+	margin-top: -25px;
+}
+p.ss  {
+    white-space: pre;
+	font-size: 18px;
+	line-height: 48px;
+	color: #212121;
+	padding-left: 10px;
+	margin-top: -5px;
+}
+p.x  {
+    white-space: pre;
+	font-size: 25px;
+	line-height: 18px;
+	font-weight:bold;
+	color: #6d5041;
+	padding-left: 10px;
+	margin-top: 80px;
+}
+p.xx  {
+    white-space: pre;
+	font-size: 20px;
+	line-height: 38px;
+	color: #ae9e95;
+	padding-left: 10px;
+	margin-top: -50px;
+}
+p.d  {
+    white-space: pre;
+	font-size: 25px;
+	line-height: 18px;
+	font-weight:bold;
+	color: #6d5041;
+	padding-left: 10px;
+	margin-top: 80px;
+}
+p.dd  {
+    white-space: pre;
+	font-size: 20px;
+	line-height: 38px;
+	color: #ae9e95;
+	padding-left: 10px;
+	margin-top: -50px;
+}
+p.g  {
+    white-space: pre;
+	font-size: 25px;
+	line-height: 18px;
+	font-weight:bold;
+	color: #6d5041;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+p.gg  {
+    white-space: pre;
+	font-size: 20px;
+	line-height: 38px;
+	color: #ae9e95;
+	padding-left: 10px;
+	margin-top: -50px;
+}
+p.kk  {
+    white-space: pre;
+	font-size: 25px;
+	line-height: 38px;
+	color: #6d5041;
+	font-weight:lighter;
+	padding-left: 10px;
+	margin-top: -120px;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    background:#bc7047;
+	text-align:left;
+	width: 80%;
+    height: 70px;
+	margin-left: 176px;
+    bottom: 0px;
+}
+footer p{
+    color: #fff;
+    display: block;
+    width: 400px;
+    float: left;
+    margin-top: 50px;
+}
